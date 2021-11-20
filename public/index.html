@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Downloader</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section id="youtubeBlock">
+      <article>
+        <div>
+          <h2>Youtube video Downloader</h2>
+          <form action="" method="GET">
+            <input
+              type="url"
+              placeholder="paste your video link"
+              name="url"
+              id="videoUrl"
+              required
+            />
+            <button id="videoBtn">download</button>
+          </form>
+        </div>
+        <footer>
+          <div class="data">
+            <div class="thumbnail">
+              <img id="img_thumbnail" />
+            </div>
+
+            <div class="description">
+              <h2 id="video-h2"></h2>
+              <p id="video_description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                tempora.
+              </p>
+            </div>
+
+            <div class="controls">
+              <input type="hidden" id="video_url" />
+              <select id="download-options"></select>
+              <button id="download-btn">Download</button>
+            </div>
+          </div>
+        </footer>
+      </article>
+    </section>
+    <script src="./Video.js"></script>
+  </body>
+</html>

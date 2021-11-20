@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #efefef;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#youtubeBlock article {
+  background-color: #fff;
+  width: 80%;
+  margin: 50px auto;
+}
+#youtubeBlock article > div {
+  width: 800px;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  margin: 5px auto;
+  padding-bottom: 100px;
+}
+
+#youtubeBlock article h2 {
+  padding: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  color: crimson;
+  filter: hue-rotate(45deg);
+  text-align: center;
+  width: 100%;
+}
+
+#youtubeBlock article form {
+  width: 100%;
+  display: flex;
+}
+
+input {
+  flex-basis: 90%;
+  padding: 10px;
+  border: 2px solid rgb(204, 193, 195);
+}
+button {
+  flex-basis: 10%;
+  background-color: crimson;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid crimson;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.data {
+  display: none;
+}
+
+#img_thumbnail {
+  width: 100%;
+}
